@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-LABEL maintainer="Dheeraj <jadheeraj.inbox@gmail.com>" \version="1.0"
+LABEL maintainer="veda142 <pedagadi.v@northesatern.edu>" \version="1.0"
 
 
 CMD ["python", "src/lab1.py"]
